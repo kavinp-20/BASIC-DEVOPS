@@ -1,0 +1,9 @@
+Installation
+Boot from USB
+To install the Win 11 operating system, follow the steps in Annexure 1.
+Set Windows region to English India. This will ensure number formatting in Excel is shown in crores/lakhs rather than millions and hundred thousands.
+Delete all partitions in the target disk and click Next. Windows installer will partition the disk as required - EFI, C:\, etc.
+Do NOT split the target disk into smaller partitions. Eg. C:\ for OS, D:\ for data, etc. This is an obsolete practice that is no longer required for modern computers with Win 11 and SSDs.
+Create an Administrator user with a name admin for doing Administrator tasks like software installation, etc.
+Install Windows Updates to receive software updates, security patches, and driver updates from Microsoft servers.
+Create a “Standard user” for doing regular tasks.
