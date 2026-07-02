@@ -1,0 +1,28 @@
+Step 1: Package Request
+
+The developer requests a package using a command such as:
+
+npm install express
+Step 2: Repository Search
+
+The package manager connects to its online repository and searches for the requested package along with its latest compatible version.
+
+Step 3: Dependency Resolution
+
+Most packages require other packages to function correctly. The package manager automatically identifies and downloads all dependent libraries without requiring manual intervention.
+
+Step 4: Installation
+
+After downloading, the package manager installs all necessary files into the project directory and updates configuration files such as package.json, package-lock.json, or similar files depending on the language.
+
+Step 5: Maintenance
+
+Once installed, developers can:
+
+Update packages
+Remove packages
+Install specific versions
+Restore dependencies on another computer
+Fix security vulnerabilities
+
+This automation saves significant development time and reduces configuration errors.
