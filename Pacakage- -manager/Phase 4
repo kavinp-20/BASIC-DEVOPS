@@ -1,0 +1,24 @@
+Example Using npm
+
+*Install a package
+npm install express
+
+*Install a specific version
+npm install express@4.18.2
+
+*Update a package
+npm update express
+
+*Remove a package
+npm uninstall express
+
+*Install all project dependencies
+npm install
+
+Project Structure
+MyProject/
+│── package.json
+│── package-lock.json
+│── node_modules/
+│── src/
+│── index.js
