@@ -1,0 +1,16 @@
+Ubuntu Server LTS Installation Guide
+Operating System Installation
+Introduction
+Operating systems are the foundation of any computer and overall IT infrastructure. Therefore learning to install the OS in a secure, consistent and well established process is essential. An OS that is installed as per best practices is easy to automate, maintain, resilient to failures and secure. Applications will also run with minimal compatibility issues or problems.
+What does an OS Installer do?
+Major Installation Steps
+BIOS configuration to boot temporarily from install medium (USB pen drive).
+Boot the OS installer from install medium (USB pen drive).
+Detect target disk, partition and format it.
+Copy OS image to the target disk. OS image may be available locally in the install medium (USB pen drive), or downloaded from network/internet.
+Make the target disk bootable and reboot.
+The installer may create the first super user account either during the install process or on first boot.
+Optionally, the installer software may install updates to itself or the target OS during the install process.
+Post Installation Steps
+Create separate “Standard User” and “Administrator” accounts. Always use “Standard User” for daily use, and Administrator account only for special requirements like new software installation, etc.
+Ensure all software updates are installed, on Windows configure Windows Updates to install software for all Microsoft Products so hardware drivers and Edge browser is always updated.
